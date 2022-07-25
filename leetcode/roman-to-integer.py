@@ -1,10 +1,6 @@
-class Solution(object):
-    # IF there was an __init__
-    # THEN I might pass in variables like...
-    # self.nums = var1
-    # selv.target = var2
+class Solution:
     
-    def romanToInt(self, s):
+    def romanToInt(self, s: str) -> int:
         """
         :type s: str
         :rtype: int
